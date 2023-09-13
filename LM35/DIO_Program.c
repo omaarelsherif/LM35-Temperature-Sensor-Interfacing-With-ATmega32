@@ -82,10 +82,10 @@ void DIO_VoidTogglePin(u8 Port, u8 Pin)
     // Check fot port and toggle pin value
     switch (Port)
     {
-        case 0: PINA ^ (1 << Pin); break;
-        case 1: PINB ^ (1 << Pin); break;
-        case 2: PINC ^ (1 << Pin); break;
-        case 3: PIND ^ (1 << Pin); break;
+        case 0: PORTA ^ (1 << Pin); break;
+        case 1: PORTB ^ (1 << Pin); break;
+        case 2: PORTC ^ (1 << Pin); break;
+        case 3: PORTD ^ (1 << Pin); break;
     } 
 }
 
