@@ -9,8 +9,6 @@
 #ifndef ADC_REGISTER_H
 #define ADC_REGISTER_H
 
-#include "../LIB/STD_TYPES.h"
-
 // Macros to define registers addreses
 #define ADMUX     *((volatile u8 *) 0x27)
 #define ADCSRA    *((volatile u8 *) 0x26)

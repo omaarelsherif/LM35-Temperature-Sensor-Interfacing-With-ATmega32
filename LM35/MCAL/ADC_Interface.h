@@ -9,8 +9,6 @@
 #ifndef ADC_INTERFACE_H
 #define ADC_INTERFACE_H
 
-#include "../LIB/STD_TYPES.h"
-
 // Function prototypes
 void ADC_VoidInit(void);
 u16 ADC_u16ReadValue(u8 CH_NUM);
