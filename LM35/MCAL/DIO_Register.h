@@ -9,8 +9,6 @@
 #ifndef DIO_REGISTER_H
 #define DIO_REGISTER_H
 
-#include "../LIB/STD_TYPES.h"
-
 // DDR registers addresses
 #define DDRA *((u8*) 0x3A)
 #define DDRB *((u8*) 0x37)
