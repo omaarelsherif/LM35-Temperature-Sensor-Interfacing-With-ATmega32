@@ -1,10 +1,17 @@
-main.o main.o: ../main.c ../STD_TYPES.h ../DIO_Interface.h \
-  ../LCD_Interface.h ../ADC_Interface.h
+main.o main.o: ../main.c ../LIB/STD_TYPES.h ../HAL/LCD_Interface.h \
+  ../HAL/../LIB/STD_TYPES.h ../MCAL/DIO_Config.h ../MCAL/DIO_Interface.h \
+  ../MCAL/../LIB/STD_TYPES.h ../MCAL/ADC_Interface.h
 
-../STD_TYPES.h:
+../LIB/STD_TYPES.h:
 
-../DIO_Interface.h:
+../HAL/LCD_Interface.h:
 
-../LCD_Interface.h:
+../HAL/../LIB/STD_TYPES.h:
 
-../ADC_Interface.h:
+../MCAL/DIO_Config.h:
+
+../MCAL/DIO_Interface.h:
+
+../MCAL/../LIB/STD_TYPES.h:
+
+../MCAL/ADC_Interface.h:

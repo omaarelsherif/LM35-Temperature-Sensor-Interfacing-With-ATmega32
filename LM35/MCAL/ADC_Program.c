@@ -7,8 +7,8 @@
 */
 
 // Include header files
-#include "STD_TYPES.h"
-#include "BIT_MATH.h"
+#include "../LIB/STD_TYPES.h"
+#include "../LIB/BIT_MATH.h"
 #include "ADC_Config.h"
 #include "ADC_Register.h"
 
@@ -58,8 +58,13 @@ u16 ADC_u16ReadValue(u8 CH_NUM)
 }
 
 // Function to convert ADC reading to voltage
-u16 ADC_u16ToVoltage(u16 adcValue)
+u16 ADC_u16ToTemp(u16 adcValue)
 {
-    // Calculate and return voltage
-    return (adcValue * 5000UL) / 1023;
+    // Calculate the analog voltage and corresponding temperature
+	float voltage = (float)adcValue / 1024.0 * 5.0;
+	u16 temperature = (u16)(voltage * 100);
+
+	// Return temperature value
+    return temperature;
 }
+

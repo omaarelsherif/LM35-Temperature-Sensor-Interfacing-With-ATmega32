@@ -1,13 +1,39 @@
 Archive member included because of file (symbol)
 
-d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
-                              ./ADC_Program.o (__mulsi3)
-d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
-                              ./LCD_Program.o (__udivmodhi4)
-d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                              ./ADC_Program.o (__udivmodsi4)
-d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                              d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              ./HAL/LCD_Program.o (__udivmodhi4)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              ./MCAL/ADC_Program.o (__fixunssfsi)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              ./MCAL/ADC_Program.o (__mulsf3)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                              ./MCAL/ADC_Program.o (__floatunsisf)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o) (__do_copy_data)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o) (__clzsi2)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
+d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                              d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o) (__clz_tab)
 
 Memory Configuration
 
@@ -22,14 +48,14 @@ signature        0x00840000         0x00000400         rw !x
 
 Linker script and memory map
 
-LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
-LOAD ./ADC_Program.o
-LOAD ./DIO_Program.o
-LOAD ./LCD_Program.o
+LOAD d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./MCAL/ADC_Program.o
+LOAD ./MCAL/DIO_Program.o
+LOAD ./HAL/LCD_Program.o
 LOAD ./main.o
-LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
-LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
-LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
 
 .hash
  *(.hash)
@@ -121,9 +147,9 @@ LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sd
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x59a
+.text           0x00000000     0x1398
  *(.vectors)
- .vectors       0x00000000       0x54 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .vectors       0x00000000       0x54 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000000                __vectors
                 0x00000000                __vector_default
  *(.vectors)
@@ -148,17 +174,19 @@ LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sd
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000054        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .init0         0x00000054        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000054                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000054        0xc d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .init2         0x00000054        0xc d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
+ .init4         0x00000060       0x16 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
  *(.init4)
  *(.init5)
  *(.init5)
@@ -169,100 +197,137 @@ LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sd
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x00000060        0x8 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .init9         0x00000076        0x8 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
  *(.init9)
  *(.text)
- .text          0x00000068        0x4 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
-                0x00000068                __vector_1
-                0x00000068                __vector_12
-                0x00000068                __bad_interrupt
-                0x00000068                __vector_6
-                0x00000068                __vector_3
-                0x00000068                __vector_11
-                0x00000068                __vector_13
-                0x00000068                __vector_17
-                0x00000068                __vector_19
-                0x00000068                __vector_7
-                0x00000068                __vector_5
-                0x00000068                __vector_4
-                0x00000068                __vector_9
-                0x00000068                __vector_2
-                0x00000068                __vector_15
-                0x00000068                __vector_8
-                0x00000068                __vector_14
-                0x00000068                __vector_10
-                0x00000068                __vector_16
-                0x00000068                __vector_18
-                0x00000068                __vector_20
- .text          0x0000006c        0x0 ./ADC_Program.o
- .text          0x0000006c        0x0 ./DIO_Program.o
- .text          0x0000006c        0x0 ./LCD_Program.o
- .text          0x0000006c        0x0 ./main.o
- .text          0x0000006c        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
- .text          0x0000006c        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
- .text          0x0000006c        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .text          0x0000006c        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x0000006c                . = ALIGN (0x2)
+ .text          0x0000007e        0x4 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000007e                __vector_1
+                0x0000007e                __vector_12
+                0x0000007e                __bad_interrupt
+                0x0000007e                __vector_6
+                0x0000007e                __vector_3
+                0x0000007e                __vector_11
+                0x0000007e                __vector_13
+                0x0000007e                __vector_17
+                0x0000007e                __vector_19
+                0x0000007e                __vector_7
+                0x0000007e                __vector_5
+                0x0000007e                __vector_4
+                0x0000007e                __vector_9
+                0x0000007e                __vector_2
+                0x0000007e                __vector_15
+                0x0000007e                __vector_8
+                0x0000007e                __vector_14
+                0x0000007e                __vector_10
+                0x0000007e                __vector_16
+                0x0000007e                __vector_18
+                0x0000007e                __vector_20
+ .text          0x00000082        0x0 ./MCAL/ADC_Program.o
+ .text          0x00000082        0x0 ./MCAL/DIO_Program.o
+ .text          0x00000082        0x0 ./HAL/LCD_Program.o
+ .text          0x00000082        0x0 ./main.o
+ .text          0x00000082        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000082        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000082       0x58 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000082                __fixunssfsi
+ .text          0x000000da      0x354 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000372                __subsf3
+                0x000003d4                __addsf3
+ .text          0x0000042e      0x1f4 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000042e                __mulsf3
+ .text          0x00000622       0x60 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x00000622                __gesf2
+ .text          0x00000682       0xa8 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x00000682                __fixsfsi
+ .text          0x0000072a        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x0000072a       0xf2 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                0x0000072a                __floatunsisf
+ .text          0x0000081c        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x0000081c        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x0000081c        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x0000081c       0x9e d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                0x0000081c                __clzsi2
+ .text          0x000008ba      0x1aa d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x000008ba                __pack_f
+ .text          0x00000a64       0xf0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x00000a64                __unpack_f
+ .text          0x00000b54       0xb2 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000b54                __fpcmp_parts_f
+ .text          0x00000c06        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00000c06                . = ALIGN (0x2)
  *(.text.*)
  .text.ADC_VoidInit
-                0x0000006c       0x14 ./ADC_Program.o
-                0x0000006c                ADC_VoidInit
+                0x00000c06       0x14 ./MCAL/ADC_Program.o
+                0x00000c06                ADC_VoidInit
  .text.ADC_u16ReadValue
-                0x00000080       0x1c ./ADC_Program.o
-                0x00000080                ADC_u16ReadValue
- .text.ADC_u16ToVoltage
-                0x0000009c       0x24 ./ADC_Program.o
-                0x0000009c                ADC_u16ToVoltage
+                0x00000c1a       0x1c ./MCAL/ADC_Program.o
+                0x00000c1a                ADC_u16ReadValue
+ .text.ADC_u16ToTemp
+                0x00000c36       0x38 ./MCAL/ADC_Program.o
+                0x00000c36                ADC_u16ToTemp
  .text.DIO_VoidSetPinDirection
-                0x000000c0       0xe6 ./DIO_Program.o
-                0x000000c0                DIO_VoidSetPinDirection
+                0x00000c6e       0xf6 ./MCAL/DIO_Program.o
+                0x00000c6e                DIO_VoidSetPinDirection
  .text.DIO_VoidSetPinValue
-                0x000001a6       0xe6 ./DIO_Program.o
-                0x000001a6                DIO_VoidSetPinValue
+                0x00000d64       0xf6 ./MCAL/DIO_Program.o
+                0x00000d64                DIO_VoidSetPinValue
  .text.DIO_U8GetPinValue
-                0x0000028c        0x2 ./DIO_Program.o
-                0x0000028c                DIO_U8GetPinValue
+                0x00000e5a       0x44 ./MCAL/DIO_Program.o
+                0x00000e5a                DIO_U8GetPinValue
  .text.DIO_VoidTogglePin
-                0x0000028e        0x2 ./DIO_Program.o
-                0x0000028e                DIO_VoidTogglePin
+                0x00000e9e       0x70 ./MCAL/DIO_Program.o
+                0x00000e9e                DIO_VoidTogglePin
  .text.DIO_VoidSetPortValue
-                0x00000290       0x22 ./DIO_Program.o
-                0x00000290                DIO_VoidSetPortValue
+                0x00000f0e       0x28 ./MCAL/DIO_Program.o
+                0x00000f0e                DIO_VoidSetPortValue
  .text.DIO_VoidSetPortDirection
-                0x000002b2       0x22 ./DIO_Program.o
-                0x000002b2                DIO_VoidSetPortDirection
+                0x00000f36       0x28 ./MCAL/DIO_Program.o
+                0x00000f36                DIO_VoidSetPortDirection
+ .text.DIO_VoidSetPortHighNibbleDirection
+                0x00000f5e       0x62 ./MCAL/DIO_Program.o
+                0x00000f5e                DIO_VoidSetPortHighNibbleDirection
+ .text.DIO_VoidSetPortLowNibbleDirection
+                0x00000fc0       0x62 ./MCAL/DIO_Program.o
+                0x00000fc0                DIO_VoidSetPortLowNibbleDirection
+ .text.DIO_VoidSetPortHighNibbleValue
+                0x00001022       0x62 ./MCAL/DIO_Program.o
+                0x00001022                DIO_VoidSetPortHighNibbleValue
+ .text.DIO_VoidSetPortLowNibbleValue
+                0x00001084       0x62 ./MCAL/DIO_Program.o
+                0x00001084                DIO_VoidSetPortLowNibbleValue
  .text.LCD_VoidWriteChar
-                0x000002d4       0x4c ./LCD_Program.o
-                0x000002d4                LCD_VoidWriteChar
+                0x000010e6       0x4c ./HAL/LCD_Program.o
+                0x000010e6                LCD_VoidWriteChar
  .text.LCD_VoidWriteNumber
-                0x00000320       0x6c ./LCD_Program.o
-                0x00000320                LCD_VoidWriteNumber
+                0x00001132       0x6c ./HAL/LCD_Program.o
+                0x00001132                LCD_VoidWriteNumber
  .text.LCD_VoidWriteString
-                0x0000038c       0x42 ./LCD_Program.o
-                0x0000038c                LCD_VoidWriteString
+                0x0000119e       0x42 ./HAL/LCD_Program.o
+                0x0000119e                LCD_VoidWriteString
  .text.LCD_VoidWriteCommand
-                0x000003ce       0x4c ./LCD_Program.o
-                0x000003ce                LCD_VoidWriteCommand
+                0x000011e0       0x4c ./HAL/LCD_Program.o
+                0x000011e0                LCD_VoidWriteCommand
  .text.LCD_VoidSetPosition
-                0x0000041a       0x1c ./LCD_Program.o
-                0x0000041a                LCD_VoidSetPosition
+                0x0000122c       0x1c ./HAL/LCD_Program.o
+                0x0000122c                LCD_VoidSetPosition
  .text.LCD_VoidInit
-                0x00000436       0x72 ./LCD_Program.o
-                0x00000436                LCD_VoidInit
- .text.main     0x000004a8       0x44 ./main.o
-                0x000004a8                main
- .text.libgcc   0x000004ec       0x3e d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
-                0x000004ec                __mulsi3
- .text.libgcc   0x0000052a       0x28 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
-                0x0000052a                __udivmodhi4
- .text.libgcc   0x00000552       0x44 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x00000552                __udivmodsi4
- .text.libgcc   0x00000596        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x00000596                . = ALIGN (0x2)
+                0x00001248       0x72 ./HAL/LCD_Program.o
+                0x00001248                LCD_VoidInit
+ .text.main     0x000012ba       0x44 ./main.o
+                0x000012ba                main
+ .text.libgcc   0x000012fe       0x28 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x000012fe                __udivmodhi4
+ .text.libgcc   0x00001326        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00001326       0x38 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00001326                __prologue_saves__
+ .text.libgcc   0x0000135e       0x36 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x0000135e                __epilogue_restores__
+ .text.libgcc   0x00001394        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00001394                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000596        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x00000596                exit
-                0x00000596                _exit
+ .fini9         0x00001394        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00001394                exit
+                0x00001394                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -281,54 +346,82 @@ LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sd
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000596        0x4 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x00001394        0x4 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x0000059a                _etext = .
+                0x00001398                _etext = .
 
-.data           0x00800060        0x0 load address 0x0000059a
+.data           0x00800060      0x108 load address 0x00001398
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
- .data          0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
- .data          0x00800060        0x0 ./ADC_Program.o
- .data          0x00800060        0x0 ./DIO_Program.o
- .data          0x00800060        0x0 ./LCD_Program.o
+ .data          0x00800060        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./MCAL/ADC_Program.o
+ .data          0x00800060        0x0 ./MCAL/DIO_Program.o
+ .data          0x00800060        0x0 ./HAL/LCD_Program.o
  .data          0x00800060        0x0 ./main.o
- .data          0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
- .data          0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
- .data          0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .data          0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800060        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x00800060        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x00800060        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x00800060        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x00800060        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .data          0x00800060        0x8 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x00800060                __thenan_sf
+ .data          0x00800068        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .data          0x00800068        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00800068        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00800068        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800068        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .data          0x00800068        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x00800068        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x00800068        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00800068      0x100 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
+                0x00800068                __clz_tab
  *(.data*)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.d*)
-                0x00800060                . = ALIGN (0x2)
-                0x00800060                _edata = .
-                0x00800060                PROVIDE (__data_end, .)
+                0x00800168                . = ALIGN (0x2)
+                0x00800168                _edata = .
+                0x00800168                PROVIDE (__data_end, .)
 
-.bss            0x00800060        0x0
-                0x00800060                PROVIDE (__bss_start, .)
+.bss            0x00800168        0x0
+                0x00800168                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
- .bss           0x00800060        0x0 ./ADC_Program.o
- .bss           0x00800060        0x0 ./DIO_Program.o
- .bss           0x00800060        0x0 ./LCD_Program.o
- .bss           0x00800060        0x0 ./main.o
- .bss           0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
- .bss           0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
- .bss           0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
- .bss           0x00800060        0x0 d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800168        0x0 ./MCAL/ADC_Program.o
+ .bss           0x00800168        0x0 ./MCAL/DIO_Program.o
+ .bss           0x00800168        0x0 ./HAL/LCD_Program.o
+ .bss           0x00800168        0x0 ./main.o
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x00800168        0x0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
  *(.bss*)
  *(COMMON)
-                0x00800060                PROVIDE (__bss_end, .)
-                0x0000059a                __data_load_start = LOADADDR (.data)
-                0x0000059a                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00800168                PROVIDE (__bss_end, .)
+                0x00001398                __data_load_start = LOADADDR (.data)
+                0x000014a0                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800060        0x0
-                0x00800060                PROVIDE (__noinit_start, .)
+.noinit         0x00800168        0x0
+                0x00800168                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00800060                PROVIDE (__noinit_end, .)
-                0x00800060                _end = .
-                0x00800060                PROVIDE (__heap_start, .)
+                0x00800168                PROVIDE (__noinit_end, .)
+                0x00800168                _end = .
+                0x00800168                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -379,32 +472,158 @@ LOAD d:/career/learning/embedded/avr/course/imt/3 - interfacing/avr_workspace/sd
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges
+.debug_aranges  0x00000000      0x140
  *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x00000080       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x000000a0       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x000000e0       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000100       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000120       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
 
 .debug_pubnames
+                0x00000000      0x197
  *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1e d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x0000008c       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x000000ac       0x22 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x000000ce       0x24 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_pubnames
+                0x000000f2       0x1f d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_pubnames
+                0x00000111       0x1f d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x00000130       0x21 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x00000151       0x26 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_pubnames
+                0x00000177       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
 
-.debug_info
+.debug_info     0x00000000     0x1b11
  *(.debug_info)
+ .debug_info    0x00000000       0xb1 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x27f d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x00000c2f      0x2b0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x00000edf      0x12c d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x0000100b      0x206 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_info    0x00001211      0x117 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_info    0x00001328      0x2df d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x00001607      0x251 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00001858      0x210 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_info    0x00001a68       0xa9 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev
+.debug_abbrev   0x00000000      0xebc
  *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x15a d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x000005bc      0x17f d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x0000073b       0xad d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x000007e8      0x157 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_abbrev  0x0000093f       0xc4 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000a03      0x1c0 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00000bc3      0x154 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00000d17      0x13b d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_abbrev  0x00000e52       0x6a d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
 
-.debug_line
+.debug_line     0x00000000      0xe5b
  *(.debug_line)
+ .debug_line    0x00000000       0xa7 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f       0xd3 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x00000662      0x109 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x0000076b       0x90 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x000007fb      0x133 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_line    0x0000092e       0xa5 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_line    0x000009d3      0x18a d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000b5d      0x14b d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00000ca8      0x137 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_line    0x00000ddf       0x7c d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
 
-.debug_frame
+.debug_frame    0x00000000      0x160
  *(.debug_frame)
+ .debug_frame   0x00000000       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000a0       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x000000c0       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_frame   0x000000e0       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_frame   0x00000100       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000120       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000140       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
 
-.debug_str
+.debug_str      0x00000000      0x2b1
  *(.debug_str)
+ .debug_str     0x00000000       0xbf d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233        0x8 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x0000023b        0xa d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x00000245       0x21 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+                                0x177 (size before relaxing)
+ .debug_str     0x00000266       0x20 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+                                0x111 (size before relaxing)
+ .debug_str     0x00000286       0x10 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x00000296        0xb d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x000002a1       0x10 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+ .debug_str     0x00000000       0xf4 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clz.o)
 
-.debug_loc
+.debug_loc      0x00000000      0x836
  *(.debug_loc)
+ .debug_loc     0x00000000       0x34 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0x3c d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x0000049e       0x7e d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x0000051c       0x4c d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_usi_to_sf.o)
+ .debug_loc     0x00000568       0x94 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clzsi2.o)
+ .debug_loc     0x000005fc      0x13e d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x0000073a       0xac d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x000007e6       0x50 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
 
 .debug_macinfo
  *(.debug_macinfo)
 OUTPUT(LM35.elf elf32-avr)
 LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 d:/career/learning/embedded/imt/avr/workspace/sdk/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)

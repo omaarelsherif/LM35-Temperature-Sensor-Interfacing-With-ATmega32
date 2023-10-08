@@ -4,10 +4,11 @@
  */
 
 // Include drivers
-#include "STD_TYPES.h"
-#include "DIO_Interface.h"
-#include "LCD_Interface.h"
-#include "ADC_Interface.h"
+#include "LIB/STD_TYPES.h"
+#include "HAL/LCD_Interface.h"
+#include "MCAL/DIO_Config.h"
+#include "MCAL/DIO_Interface.h"
+#include "MCAL/ADC_Interface.h"
 #include <avr/delay.h>
 
 // Main function
@@ -28,8 +29,8 @@ void main(void)
 		// Get ADC reading
 		digital_value = ADC_u16ReadValue(0);
 
-		// Get analog
-		analog_value = ADC_u16ToVoltage(digital_value);
+		// Get analog value
+		analog_value = ADC_u16ToTemp(digital_value);
 
 		// Clear LCD screen
 		LCD_VoidWriteCommand(1);

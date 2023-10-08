@@ -8,6 +8,8 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include MCAL/subdir.mk
+-include HAL/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -34,9 +36,6 @@ LM35.lss \
 
 FLASH_IMAGE += \
 LM35.hex \
-
-EEPROM_IMAGE += \
-LM35.eep \
 
 SIZEDUMMY += \
 sizedummy \
@@ -65,12 +64,6 @@ LM35.hex: LM35.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
-LM35.eep: LM35.elf
-	@echo 'Create eeprom image (ihex format)'
-	-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex LM35.elf  "LM35.eep"
-	@echo 'Finished building: $@'
-	@echo ' '
-
 sizedummy: LM35.elf
 	@echo 'Invoking: Print Size'
 	-avr-size --format=avr --mcu=atmega32 LM35.elf
@@ -79,10 +72,10 @@ sizedummy: LM35.elf
 
 # Other Targets
 clean:
-	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(EEPROM_IMAGE)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) LM35.elf
+	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) LM35.elf
 	-@echo ' '
 
-secondary-outputs: $(LSS) $(FLASH_IMAGE) $(EEPROM_IMAGE) $(SIZEDUMMY)
+secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY)
 
 .PHONY: all clean dependents
 .SECONDARY:

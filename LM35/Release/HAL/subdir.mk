@@ -4,17 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../main.c 
+../HAL/LCD_Program.c 
 
 OBJS += \
-./main.o 
+./HAL/LCD_Program.o 
 
 C_DEPS += \
-./main.d 
+./HAL/LCD_Program.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-%.o: ../%.c
+HAL/%.o: ../HAL/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: AVR Compiler'
 	avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"

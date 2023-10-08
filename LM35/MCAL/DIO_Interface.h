@@ -9,7 +9,7 @@
 #ifndef DIO_INTERFACE_H
 #define DIO_INTERFACE_H
 
-#include "STD_TYPES.h"
+#include "../LIB/STD_TYPES.h"
 
 // Function prototypes
 void DIO_VoidSetPinDirection(u8 Port, u8 Pin, u8 Dir);
@@ -18,5 +18,9 @@ u8 DIO_U8GetPinValue(u8 Port, u8 Pin);
 void DIO_VoidTogglePin(u8 Port, u8 Pin);
 void DIO_VoidSetPortValue(u8 Port, u8 Value);
 void DIO_VoidSetPortDirection(u8 Port, u8 Direction);
+void DIO_VoidSetPortHighNibbleDirection(u8 Port, u8 Direction);
+void DIO_VoidSetPortLowNibbleDirection(u8 Port, u8 Direction);
+void DIO_VoidSetPortHighNibbleValue(u8 Port , u8 Value);
+void DIO_VoidSetPortLowNibbleValue(u8 Port , u8 Value);
 
 #endif

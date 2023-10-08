@@ -7,22 +7,21 @@
 */
 
 // Include header files
-#include "STD_TYPES.h"
-#include <avr/delay.h>
+#include "../LIB/STD_TYPES.h"
+#include "../MCAL/DIO_Interface.h"
 #include "LCD_Config.h"
-#include "DIO_Interface.h"
 #include <avr/delay.h>
 
 // Function to initialize the LCD based on the datasheet
 void LCD_VoidInit()
 {
     // Set data direction as output
-    DIO_VoidSetPortDirection(DATA_PORT, 0b11111111);
+    DIO_VoidSetPortDirection(DATA_PORT, OUTPUT);
 
     // Set pin directions as output
-    DIO_VoidSetPinDirection(CFG_PORT, 0, 1);    // Pin0 : Rs
-    DIO_VoidSetPinDirection(CFG_PORT, 1, 1);    // Pin1 : Rw
-    DIO_VoidSetPinDirection(CFG_PORT, 2, 1);    // Pin2 : En
+    DIO_VoidSetPinDirection(CFG_PORT, PIN0, OUTPUT);    // Pin0 : Rs
+    DIO_VoidSetPinDirection(CFG_PORT, PIN1, OUTPUT);    // Pin1 : Rw
+    DIO_VoidSetPinDirection(CFG_PORT, PIN2, OUTPUT);    // Pin2 : En
 
     // Wait for more than 30ms after Vdd rises to 4.5v
     _delay_ms(40);
@@ -35,7 +34,7 @@ void LCD_VoidInit()
     // XX : don't care
     LCD_VoidWriteCommand(0b00111000);
 
-    // Wait for more than 39μs
+    // Wait for more than 39 micro sec
     _delay_ms(1);
 
     // Display on/off control command
@@ -60,38 +59,38 @@ void LCD_VoidInit()
 void LCD_VoidWriteCommand(u8 Command)
 {
     // Set Rs = 0 to enable write command mode
-    DIO_VoidSetPinValue(CFG_PORT, 0, 0);
+    DIO_VoidSetPinValue(CFG_PORT, PIN0, LOW);
 
     // Set Rw = 0 to enable write mode
-    DIO_VoidSetPinValue(CFG_PORT, 1, 0);
+    DIO_VoidSetPinValue(CFG_PORT, PIN1, LOW);
 
     // Write command from the port
     DIO_VoidSetPortValue(DATA_PORT, Command);
 
     // Set En = 1 to enable the LCD
-    DIO_VoidSetPinValue(CFG_PORT, 2, 1);    // set high level (raising edge)
-    _delay_ms(1);                              // delay
-    DIO_VoidSetPinValue(CFG_PORT, 2, 0);    // set low level (falling edge)
-    _delay_ms(1);                              // delay
+    DIO_VoidSetPinValue(CFG_PORT, PIN2, HIGH);    // set high level (raising edge)
+    _delay_ms(1);                                 // delay
+    DIO_VoidSetPinValue(CFG_PORT, PIN2, LOW);     // set low level (falling edge)
+    _delay_ms(1);                                 // delay
 }
 
 // Function to write data (character) to the LCD
 void LCD_VoidWriteChar(u8 Character)
 {
     // Set Rs = 1 to enable write data mode
-    DIO_VoidSetPinValue(CFG_PORT, 0, 1);
+    DIO_VoidSetPinValue(CFG_PORT, PIN0, HIGH);
 
     // Set Rw = 0 to enable write mode
-    DIO_VoidSetPinValue(CFG_PORT, 1, 0);
+    DIO_VoidSetPinValue(CFG_PORT, PIN1, LOW);
 
     // Write data from the port
     DIO_VoidSetPortValue(DATA_PORT, Character);
 
     // Set En = 1 to enable the LCD
-    DIO_VoidSetPinValue(CFG_PORT, 2, 1);    // set high level (raising edge)
-    _delay_ms(1);                    		   // delay
-    DIO_VoidSetPinValue(CFG_PORT, 2, 0);    // set low level (falling edge)
-    _delay_ms(1);                              // delay
+    DIO_VoidSetPinValue(CFG_PORT, PIN2, HIGH);    // set high level (raising edge)
+    _delay_ms(1);                    		      // delay
+    DIO_VoidSetPinValue(CFG_PORT, PIN2, LOW);     // set low level (falling edge)
+    _delay_ms(1);                                 // delay
 }
 
 // Function to write data (string) to the LCD
