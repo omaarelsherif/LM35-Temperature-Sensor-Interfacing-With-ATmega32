@@ -9,6 +9,8 @@
 #ifndef DIO_INTERFACE_H
 #define DIO_INTERFACE_H
 
+#include "../LIB/STD_TYPES.h"
+
 // Function prototypes
 void DIO_VoidSetPinDirection(u8 Port, u8 Pin, u8 Dir);
 void DIO_VoidSetPinValue(u8 Port, u8 Pin, u8 Value);
